@@ -8,7 +8,7 @@
 .container {
     width: 100%;
 }
-
+    /* header */
 .banner {
     width: 100%;
     height: 70vh;
@@ -25,7 +25,7 @@ nav {
 }
     
 .logo {
-     position: absolute;
+    position: absolute;
     vertical-align: middle;
     display: inline-block;
     float: left;
@@ -93,9 +93,9 @@ header a {
 .scarica {
     position: absolute;
     bottom: 20%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    width: 50%;
+    width: 30%;
 }
 
 .scarica li {
@@ -140,6 +140,7 @@ header a {
 .titolo h1 {
     font-size: 50px;
     margin-bottom: 10%;
+    text-align: center;
 }
 
 .titolo p {
@@ -148,3 +149,39 @@ header a {
 }
 
     /* fine titolo  */
+
+    /* fine header */
+
+    /* main */
+
+.right {
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.right img {
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%);
+    width: 35%;
+}
+
+    /* info  */
+ .info {
+    position: absolute;
+    width: 15%;
+    top: 50%;
+    right: 20%;
+    padding-top: 2%;
+}
+
+.info h1 {
+    margin-bottom: 10%;
+    font-size: 40px;
+}
+
+.info p {
+    font-size: 20px;
+}
+    /* fine info  */
