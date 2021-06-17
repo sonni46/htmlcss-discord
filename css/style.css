@@ -114,6 +114,10 @@ header a {
     padding: 10px 30px;
 }
 
+.scarica i {
+    padding-right:  5px;
+}
+
 .black {
     background-color: rgb(35, 39, 42);
     color: white;
