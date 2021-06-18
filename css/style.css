@@ -7,6 +7,7 @@
 
 .container {
     width: 100%;
+    margin: 0 auto;
 }
     /* header */
 .banner {
@@ -16,6 +17,15 @@
     background-size: cover;
     position: relative; 
 }
+
+.sfondo-header {
+    position: relative;
+    background-color:rgb(37,94, 233,1) ;
+    width: 100%;
+    height: 100px;
+    
+}
+
 
     /* logo */
 
@@ -80,7 +90,7 @@ header a {
     padding: 5px 10px;
     text-align: center;
     border-radius: 20px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .button {
@@ -274,18 +284,76 @@ main {
 
 .footer {
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: rgb(35, 39, 42);
 }
 
 .utiliti {
-margin-left: 20%;
+    position: relative;
+    margin: 0 15%;
+    border-bottom: 1px solid rgb(142, 162, 225);
+    height: 300px;
 }
 
-.prodotti,
-.compagnia,
-.risorse,
-.norme {
+.utiliti:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.box {
+    padding-top: 100px;
+    padding-right: 100px;
+    height: 100px;
     float: left;
-    margin-left: 10%;
+}
+
+.box h1 {
+    margin-bottom: px;
+    padding-bottom: 20px;
+    color:rgb(37, 94, 233,1)
+}
+
+.box li {
+    display: block;
+    text-align: left;
+}
+
+.bandiera,
+span,
+i {
+    color: white;
+
+}
+
+.ld {
+    margin-right: 50px;
+}
+
+.ld img {
+    height: 20px;
+}
+
+.bandiera {
+    margin-bottom: 5px;
+}
+
+.logo-end {
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.accedi-end {
+    margin-right:18%;
+    float: right;
+}
+
+.end-bot {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(142, 162, 225);
+    padding: 10px 20px;
+    border-radius: 20px;
+
+
 }
