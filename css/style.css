@@ -346,6 +346,7 @@ i {
 .accedi-end {
     margin-right:18%;
     float: right;
+    margin-top: 0.5%;
 }
 
 .end-bot {
@@ -354,6 +355,7 @@ i {
     background-color: rgb(142, 162, 225);
     padding: 10px 20px;
     border-radius: 20px;
+    
 
 
 }
